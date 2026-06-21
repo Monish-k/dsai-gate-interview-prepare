@@ -1,8 +1,17 @@
-# Welcome to the DSAI-GATE Repository [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) :robot: [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# DSAI-GATE
 
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Kunaldargan/dsai-gate/pulls)
+[![Deploy syllabus explorer](https://github.com/Kunaldargan/dsai-gate/actions/workflows/pages.yml/badge.svg)](https://github.com/Kunaldargan/dsai-gate/actions/workflows/pages.yml)
+
+A community-maintained collection of syllabus-aligned resources and practice
+material for the GATE Data Science and Artificial Intelligence paper.
+
+**Explore the syllabus:** [Interactive explorer](https://ds-ai-gate.github.io/dsai-gate/)
+· [Overall memory map](https://ds-ai-gate.github.io/dsai-gate/#map)
 
 > ## We are still in work in progress phase, Stay tuned !!
-> Looking for solid-contributors checkout : [contributors-guide](https://github.com/DS-AI-GATE/dsai-gate/wiki/CONTRIBUTORS-GUIDE)
+> Looking for solid-contributors checkout : [contributors-guide](https://github.com/Kunaldargan/dsai-gate/wiki/CONTRIBUTORS-GUIDE)
 
 <!---
 Comments and Notes:
@@ -38,7 +47,23 @@ Our repository is meticulously organized to cover the complete syllabus outlined
 
 **Explore the power of open source including featured tutorials, course videos, books, articles, courses, websites, code examples in Python**.\
 ``Theoretical explanations, practice examples, or MCQ exercises, we've got you covered in this all-encompassing guide.``\
-``We aim to present a one stop resource in this Preparation-to-Interviews guide.`` 
+``We aim to present a one stop resource in this Preparation-to-Interviews guide.``
+
+
+**Updates**
+Created the GitHub Pages deployment workflow at [.github/workflows/pages.yml](.github/workflows/pages.yml).
+
+
+- Tests and builds on pull requests.
+- Deploys automatically after merging to `main`.
+- Rebuilds when topics, notebooks, resources, PYQs, or webapp files change.
+- Uses current GitHub Actions versions.
+- Publishes to: https://ds-ai-gate.github.io/dsai-gate/
+- Provides the map directly at: https://ds-ai-gate.github.io/dsai-gate/#map
+- Adds deployment status and app links to README.
+
+Verified workflow YAML, tests, and static export. In repository Settings → Pages, set **Source** to **GitHub Actions** once.
+
   
 📁 **Repository Structure**
 
@@ -135,7 +160,11 @@ Your knowledge or years of industry experience is invaluable. Claim your spot no
 3. If your content is ready, submit a pull request or open an issue to indicate your contribution.
 4. Collaborate with the community to enhance and refine the content.
 
-For any questions or clarifications, feel free to [reach out](https://github.com/DS-AI-GATE/dsai-gate/issues/3)!
+All repository changes, including maintainer changes, must be submitted and
+merged through a pull request. See the [repository agent guide](docs/agent.md)
+for the required workflow.
+
+For any questions or clarifications, feel free to [reach out](https://github.com/Kunaldargan/dsai-gate/issues/3)!
 
 Join our [Discord Server](https://discord.com/invite/N5Wgn9ygDF) for real-time interactions with fellow contributors.
 ---
@@ -180,9 +209,12 @@ Let's make DSAI preparation an enriching and collaborative journey together! �
 
 🔗 **Connect with Us**
 
-Stay connected with us for updates, announcements, and discussions:
+Stay connected with us for updates, announcements, and discussions
 
-- Join our [Discord server](https://discord.com/invite/N5Wgn9ygDF) for real-time discussions.
+**Maintainer documentation:** [implementation plan](docs/implementation_plan.md)
+| [official resources and paper analysis](docs/official-resources.md)
+| [agent guide](docs/agent.md)
+| [stale-link audit](docs/stale-links.md)
 
 
 <!---
@@ -486,10 +518,10 @@ Check out the complete GATE DA Exam Pattern in the table outlined below.
 </table>
 
 ---
-### Useful collections:
+### Useful Collections
 
 - [Achint Chaudhary's concise gist of resouces](https://gist.github.com/chaudharyachint08/481a4fbb5e699340fb8849d1cacdcdf9)
-- [2025 DS AI GATE Question Paper](https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf)
+- [Official previous-year papers and answer keys](PYQ/README.md)
 - [Recent AI Questions](https://gateoverflow.in/tag/gate-ds-ai-2024)
 ---
 
@@ -504,6 +536,10 @@ Access previous year GATE Data Science and AI question papers and their answer k
 **2025:**
 - [GATE DA 2025 Question Paper](PYQ/DA.PYQ.2025.pdf)
 - [GATE DA 2025 Answer Key](PYQ/DA.PYQ.Keys.2025.pdf)
+
+**2026:**
+- [GATE DA 2026 Question Paper](PYQ/DA.PYQ.2026.pdf)
+- [GATE DA 2026 Answer Key](PYQ/DA.PYQ.Keys.2026.pdf)
 
 ---
 
